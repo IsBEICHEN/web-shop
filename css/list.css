@@ -1,0 +1,42 @@
+hr{
+    background-color:red;
+}
+h2{
+    color: #00bf00;
+}
+
+
+.table
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+th {
+    color: #fff;
+    border: 1px solid #51CDC1;
+    letter-spacing:6px;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background: #51CDC1 no-repeat;
+}
+td {
+    border: 1px solid #51CDC1;
+    background: #fff;
+    font-size:14px;
+    padding: 6px 6px 6px 12px;
+    color: #4f6b72;
+}
+td.alt {
+    background: #F5FAFA;
+    color: #797268;
+}
+th.spec,td.spec {
+    border-left: 1px solid #C1DAD7;
+}
+html>body td{ font-size:14px;}
+tr.select th,tr.select td
+{
+    background-color:#CAE8EA;
+    color: #797268;
+}
